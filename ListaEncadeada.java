@@ -3,6 +3,7 @@ public class ListaEncadeada { // Classe que representa a Lista Encadeada
     private No primeiro;
 
     public ListaEncadeada(){ //construtor
+
         this.primeiro = null;
     }
 
