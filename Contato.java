@@ -1,40 +1,32 @@
-public class Contato { // Classe que representa um contato
-    private int idAluno;
+public class Contato {
     private String nome;
-    private String email;
+    private String numero;
 
-    public Contato(int idAluno, String nome, String email){
-        this.idAluno = idAluno;
+    public Contato(String numero, String nome){
         this.nome = nome;
-        this.email = email;
+        this.numero = numero;
     }
 
-    public int getIdAluno() {
-        return idAluno;
-    }
-
-    public void setIdAluno(int idAluno) {
-        this.idAluno = idAluno;
+    public String getNumero() {
+        return numero;
     }
 
     public String getNome() {
         return nome;
     }
 
+    public void setNumero(String numero) {
+        this.numero = numero;
+    }
+
     public void setNome(String nome) {
         this.nome = nome;
     }
 
-    public String getEmail() {
-        return email;
-    }
-
-    public void setEmail(String email) {
-        this.email = email;
-    }
-
     @Override
     public String toString() {
-    return "ID: " + idAluno + ", Nome: "+nome+", Email: "+email;
+        return "Nome: " + nome + ", Número de telefone: " + numero;
     }
+
+
 }

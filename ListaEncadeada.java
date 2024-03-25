@@ -8,8 +8,8 @@ public class ListaEncadeada { // Classe que representa a Lista Encadeada
     }
 
 
-    public void adcionar(Contato contato) {
-        No no = new No(contato);
+    public void adcionar(DadosAluno dadosAluno) {
+        No no = new No(dadosAluno);
         no.setProximo(primeiro);
         primeiro = no;
     }

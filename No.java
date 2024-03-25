@@ -1,19 +1,19 @@
 public class No { // Classe que representa um nó na lista encadeada
 
-    private Contato contato;
+    private DadosAluno dadosAluno;
     No proximo;
 
-    public No(Contato contato){ // Construtor
-        this.contato = contato;
+    public No(DadosAluno dadosAluno){ // Construtor
+        this.dadosAluno = dadosAluno;
         this.proximo = null;
     }
     // Getters e Setters
-    public Contato getContato() {
-        return contato;
+    public DadosAluno getContato() {
+        return dadosAluno;
     }
 
-    public void setContato(Contato contato) {
-        this.contato = contato;
+    public void setContato(DadosAluno dadosAluno) {
+        this.dadosAluno = dadosAluno;
     }
 
     public No getProximo() {

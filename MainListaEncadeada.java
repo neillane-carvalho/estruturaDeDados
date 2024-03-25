@@ -2,9 +2,9 @@ public class MainListaEncadeada {
     public static void main(String[] args) {
         ListaEncadeada lista = new ListaEncadeada();
 
-        lista.adcionar(new Contato(1,"Alice", "alice@gmail.com"));
-        lista.adcionar(new Contato(2, "Maria", "maria@gmail.com"));
-        lista.adcionar(new Contato(3, "Lucas", "lucas@gmail.com"));
+        lista.adcionar(new DadosAluno(1,"Alice", "alice@gmail.com"));
+        lista.adcionar(new DadosAluno(2, "Maria", "maria@gmail.com"));
+        lista.adcionar(new DadosAluno(3, "Lucas", "lucas@gmail.com"));
         System.out.println("Lista de Contatos:");
 
         lista.imprimir();
